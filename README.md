@@ -8,6 +8,47 @@
 ### About Me
 Hi everyone! My name is Jason and I was a *Project Manager* for two years in the custom signage industry. Coming from a project management background has provided me with a unique perspective on software development. What pushed me to leave project management was the realization that it just wasn’t the right career choice for me. I enjoyed being involved directly with a project, but project management left me out of making the final decisions. After talking to my partner we decided that it was best to leave my job and I would pursue going back to school full time and thus lead me to Code Fellows. What I see in software development is the ability to not only directly create a user interface, but heavily relies on a problem-solving mindset. I like to think of that problem solving just like a puzzle, and every time you add another piece it’s very rewarding. My **creative mindset** is fueled by software development, and having a cohort of individuals embrace that creative mindset reaffirms my belief that I’ve made the right career move.
 
+Pre-work Reading Notes
+### Pre-Work Code 401:
+
+***Solving Problems***
+
+- When most programers are given a programming problem in an interview, they make several mistakes. The most sever of those is the improper allocation of time, most programers try to start writing code as soon as possible. 
+
+**Simple but Effective Steps**
+1. Read the problem completely twice.
+2. Solve the problem manually with three sets of sample data.
+3. Optimize the manual steps.
+4. Write the manual steps as comments of pseudo-code.
+5. Replace the comments or pseudo-code with real code.
+6. Optimize the real code.
+
+70% of your time should be spent on steps 1-3. 
+
+- If you don't understand the problem, you cannot solve it. Do not worry about solving the problem, it’s better you work on showing the possibility to solve the problem.
+
+***Pretending your time is worth $1000 an hour***
+- Many people waste much of their time on pointless, low-quality activities that don't help them reach their true goals. People tend to value their time at far, far less than it's worth. 
+
+- Busyness is nothing more than distraction and procrastination from what really matters. Successful people don't tolerate busywork or distraction and they have a crystal clear vision on their goals. 
+
+- The biggest takeaway is to value your time and make the effort to focus on the important things that don't consist of just doing busywork. Feel confident to say no to things more often and understand there is a likely chance by saying no you open more opportunities. 
+
+***How to think like a programer***
+- Problem solving is the meta-skill
+
+- All of us have problems and how we deal with them is pretty random. The best way to solve a problem is to set up a framework and practice that frame work. 
+
+**Here are the steps**
+1. Understand
+2. Plan
+3. Divide
+4. Stuck?
+5. Practice
+6. Conclusion
+
+- In this way you take a problem into really small chunks and bite size pieces that are manageable. You begin to chip away at the problem and this will take time and that is okay!!!
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
