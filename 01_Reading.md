@@ -1,4 +1,3 @@
-Read 01
 ## 401 Reading Notes
 
 ### Class 01 
