@@ -1,3 +1,53 @@
+## 401 Reading Notes
+
+### Linked Lists
+- Linked list is a sequence of **Nodes** that are connected/linked to each other. The defining feature of a linked list is tat **Node** references the next **Node** in the link. 
+
+- There are two types of Linked list - Singly and Doubly
+  * Singly: Singly refers to the number of references the node has. A **singly** linked list means that there is only one reference, and the reference points to the **next** node.
+
+  * Doubly: Doubly refers to there being two (double) references within the node. A **doubly** linked list means that there is a reference to both the **next** and additionally the **previous** node.
+
+- ![What it looks like](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/images/LinkedList1.PNG) 
+
+### Traversing
+- As you traverse a linked list, you cannot use a **forEach** or a **for** loop. We are relying on the **Next** value to guide the node to the next reference point. A **next** property is exceptionally important because it will lead us to the next node and allows us to extract data appropriately.
+
+- So what can you use to traverse?? The best approach is to use a **while()** loop. This will allow us to continually check that the **next** node is the list is not null. 
+
+**Example**
+
+ALGORITHM Includes (value)
+// INPUT <-- integer value
+// OUTPUT <-- boolean
+
+  Current <-- Head
+
+  WHILE Current is not NULL
+    IF Current.Value is equal to value
+      return TRUE
+
+    Current <-- Current.Next
+
+  return FALSE
+
+### What took place
+
+1. We first create **Current** at the **Head** to guarantee we are starting from the beginning.
+2. We create the **while** loop and this will only run is the node that **Current** is pointing too is not null.
+3. Once we are in the while loop, we are checking if the value of the current node is equal to the value that we were looking for.
+4. If the **Current** node does not contain the value we are looking for, we must move the current to the next node that is being referenced.
+5. At this point, the while loop is run again and steps 3 & 4 will continue until **Current** reaches the end of the **LinkedList**.
+
+### Adding a Node
+ - Order of operations is extremely important when it comes to working with a Linked list. Each of your links and nodes should be properly assigned. 
+
+### Prerequisites
+- When constructing your code, keep in mind that a Node class will be passed in to each node that has a value.
+
+[Linked List Reading](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html)
+
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
