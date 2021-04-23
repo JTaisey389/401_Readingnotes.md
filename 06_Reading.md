@@ -1,3 +1,48 @@
+## 401 Reading Notes
+
+1. Explain what a “Singleton” is (in Computer Science terms)
+
+- Singleton pattern is a software design patter that restricts the instantiation of a class to one "single" instance. [Link](https://en.wikipedia.org/wiki/Singleton_pattern)
+
+2. Explain how the Singleton pattern can be used with Node modules, specifically with classes. 
+
+- Singleton pattern can be used with node modules because of how singleton is set up to instantiate one single instance. Node would only fire once thanks to setting up  a class of an object. 
+
+3. If you were tasked with building a middleware system like Express uses, what approach might you take to construct/operate it?
+
+- I think my approach would to model the data to see what we would be passing in as information. With that approach custom middleware can be designed for the application; moreover, this can push the emphasis of TDD.
+
+### Define
+
+1. Router Middleware: Chainable middleware with familiar req.params and req.query if identical routing is what you are typically used to.
+
+2. Dynamic Module Loading: Dynamic loading is a mechanism by which a computer program can, at run time, load a library into memory, retrieve the addresses of functions and variables contained in the library, execute those functions or access those variables, and unload the library from memory.
+[Link](https://en.wikipedia.org/wiki/Dynamic_loading)
+
+3. Singleton Pattern: Singleton pattern is a software design patter that restricts the instantiation of a class to one "single" instance. [Link](https://en.wikipedia.org/wiki/Singleton_pattern)
+
+4. CRUD -> REST Method Matches:
+CREATE -> GET
+READ -> POST
+UPDATE -> PUT
+DELETE -> DELETE
+
+5. Mock Testing: Mock testing is an approach to unit testing that lets you make assertions about how the code under test is interacting with other system modules.
+[Link](https://devopedia.org/mock-testing#:~:text=Mock%20testing%20is%20an%20approach,behaviour%20of%20the%20real%20ones.)
+
+Which 3 things had you heard about previously and now have better clarity on?
+
+- I can't think of three things as the moment, but CRUD and REST are just about drilled into my head.
+
+Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- I hope to learn more about how the singleton pattern will be integrated with compartmentalized code. 
+
+What are you most excited about trying to implement or see how it works?
+
+- I am enjoying the testing of an application. 
+
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
