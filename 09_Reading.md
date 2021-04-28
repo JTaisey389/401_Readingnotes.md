@@ -1,3 +1,28 @@
+## 401 Reading Notes
+### 404 Error
+
+### Review
+
+
+### Define
+- 404 File Not Found: A HTTP 404, File not found error message is a Hypertext Transfer Protocol (HTTP) standard response code, in computer network communications, to indicate the browser was not able to communicate witha a given server, but the server could not find what was requested. [Wiki](https://en.wikipedia.org/wiki/HTTP_404)
+
+### Preview
+1. Which 3 things had you heard about previously and now have better clarity on?
+- I've heard of 404 Errors
+- There a lot of various errors with HTTP
+- Each error gives an indication of what the issue is
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+- When will the 404 error be fixed
+- Typically how is that type of error will be fixed
+- How many people will do the same cheeky thing for this reading
+
+
+3. What are you most excited about trying to implement or see how it works?
+- Excited for Oauth and being able to set up logins for data
+
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)

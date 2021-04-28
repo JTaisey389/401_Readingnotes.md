@@ -1,3 +1,41 @@
+## 401 Reading Notes
+
+## Stacks and Queues
+
+### What is a Stack?
+- A stack is a data structure that consists of **Nodes** and each **Node** references the next **Node** in the stack, but will not reference the previous.
+
+- Common terms for a stack
+1. Push - Nodes or items that are put into the stack that are pushed
+2. Pop - Nodes or items that are removed from the stack are popped. When you attempt to **pop** an empty stack an exception will be raised.
+3. Top - This refers to the top of the stack
+4. Peek - When you **peek** you will view the value of the **top** node in the stack. When you attempt to **peek** an empty stack an exception will be raised. 
+5. IsEmpty - This returns true when stack is empty otherwise it returns false
+
+- Stacks follow these concepts:
+  * FILO - **F**irst **I**n **L**ast **O**ut
+  * This means the first item added in the stack will be the last item popped out of the stack
+
+  * LIFO - **L**ast **I**n **F**irst **O**ut
+  * This means that the last item added to the stack will be the first item popped out of the stack
+
+## Stack Visualisation
+![Stack](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/images/stack1.PNG)
+![Pop](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/images/pushStack2.PNG)
+![Finish](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/images/pushStack3.PNG)
+
+### Queueing 
+- Common terms for a queue
+1. Enqueue - Node or items that are added to the queue
+2. Dequeue - Node or items that are removed from the queue. If called when the queue is empty an exception will be raised
+3. Front - This is the front/first node of the queue
+4. Rear - This is the rear/last node of the queue
+5. Peek - When you peek you will view the value of the from node in the queue
+6. IsEmpty - Returns true when queue is empty but otherwise returns false
+
+### Refrences:
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html)
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
