@@ -1,3 +1,35 @@
+## 401 Reading Notes
+
+## Event Driven Architecture
+
+### Review
+1. What’s the difference between a FIFO and a standard queue?: FIFO queues have essentially the same features as a standard queue, but provide an additional benefit of supporting ordering and exactly-once processing. [Link](https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-sqs-introduces-fifo-queues-with-exactly-once-processing-and-lower-prices-for-standard-queues/#:~:text=FIFO%20queues%20have%20essentially%20the,being%20received%20by%20message%20consumers.)
+
+2. How can the server be assured a message was properly received?: A server could be configured in a way that when a message is sent, a response is expected back. This would ensure that the message is received, the alternative is to program in a set of responses on the client end. 
+
+3. What classic design pattern is best represented by event driven programming?: An observer pattern is a software design pattern in which an object, named the subject, maintains a list of dependencies. called observers. [Link](https://en.wikipedia.org/wiki/Observer_pattern)
+
+4. How do you test an event driven system?: With most cases you write a unit test, service test, and a end-to-end test. These are known as **System Under Test** (SUT) [Link](https://medium.com/dan-on-coding/testing-event-driven-systems-63c6b0c57517)
+
+### Define
+- FIFO Queue: These are queues designed to enhance messaging between applications when the order of operations and events are critical, or where duplicates can't be tolerated. [Link](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html)
+
+- Pub/Sub: Pub/sub is an asynchronous messaging service that decouples services that produce events from services that process events. [Link](https://cloud.google.com/pubsub/docs/overview)
+
+### Preview 
+1. Which 3 things had you heard about previously and now have better clarity on?
+- Our reading today was all new material I have not heard of, but a lot of the sources come from either google or amazon. 
+- I did learn about the FIFO system the other day, and it makes sense that chat queues are designed that way. 
+- I asked myself the question about the FIFO method and how that is related to the systems we are learning with event.emits. 
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+- Looking forward to tying in the event based events to trigger FIFO's.
+- I would like to implement or learn more about the setting up of the architecture on these systems
+- Is there a way that an event could be disabled that does not disrupt the event.emit process?
+
+3. What are you most excited about trying to implement or see how it works?
+- It will be interesting to see how chat queue's are developed. 
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
