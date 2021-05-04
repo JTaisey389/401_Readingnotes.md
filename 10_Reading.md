@@ -12,6 +12,17 @@
 4. Peek - When you **peek** you will view the value of the **top** node in the stack. When you attempt to **peek** an empty stack an exception will be raised. 
 5. IsEmpty - This returns true when stack is empty otherwise it returns false
 
+### Stack terms
+- Array.pop 
+
+- The pop() method removes the last element of an array, and returns that element.
+  * Note: This method changes the length of an array.
+  * Tip: To remove the first element of an array, use the shift() method.
+
+https://www.w3schools.com/jsref/jsref_pop.asp
+
+- The time for these are 0(n) - > O of one
+- Space for the pop method 0(n) - > O of one
 - Stacks follow these concepts:
   * FILO - **F**irst **I**n **L**ast **O**ut
   * This means the first item added in the stack will be the last item popped out of the stack
@@ -33,8 +44,9 @@
 5. Peek - When you peek you will view the value of the from node in the queue
 6. IsEmpty - Returns true when queue is empty but otherwise returns false
 
-### Refrences:
+### Refrences
 [Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html)
+
 
 ### Table of Contents
 - [Read Express 01](01_Reading.md)

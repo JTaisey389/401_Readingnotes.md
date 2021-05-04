@@ -49,6 +49,88 @@ Pre-work Reading Notes
 
 - In this way you take a problem into really small chunks and bite size pieces that are manageable. You begin to chip away at the problem and this will take time and that is okay!!!
 
+### Pitch Workshop Overview
+- Review of the Career Launch process
+- Looking at "Go to Market" strategies
+- Elements of a good personal pitch?
+- Where to use your pitch
+- Pitch practive
+- Incorporating feedback
+- Pitch presentations to the class
+
+### Review of Seven Steps
+1. Search for jobs
+2. Stellar resume
+3. Recruiter call
+4. Technical Interveiw 
+5. Behavioral Interveiw 
+6. Offer
+7. Negotiate
+
+### Go to market strategy
+- The plan of an organization, utlizing their inside and outside resources, to deliver their unique value proposition to customers and acheive competetive advantage
+
+### Build your Go to market strategy
+- Personal brand
+- Resume
+- Pitch
+
+### The pitch: The story of you
+- Your pitch is:
+  * Professional
+    - Yet personal
+  * Show positivity
+  * Showing passion
+  * More than just words
+
+### Elements of a great pitch:
+- Personal Pitch:
+  * What is the WHY behind your why?
+  * What beleifs drive you?
+  * What values do your highlight?
+  * Tell it as a store 
+    - Background of the hero(you)
+    - Discovery, challenge, or obstacle
+    - Skills to save the day
+
+### Your pitch may include:
+- Background Industry or Enviroment
+  * Prior to be a technologist
+
+- Key strengths and values formed
+  * I can work with a diverse range of clients with a specific set of needs
+  * High-pressure situations with strict deliverable dates
+
+- Destination
+  * Software Developer? Security Analyst? Pentester?
+
+### The Picth: Where it is Utilized
+- Presentations
+- Networking: Virtual and -inperson
+- Outreach emails
+- LinkedIN connection requests
+- Information interviews
+- Profile statements
+- Phone interveiws
+
+### Using your Pitch: LinkedIn Intros
+- Ask first-degree connections for intros
+- Include your pitch
+- Address it to the new connection you want to make
+
+### The Pitch: High-Level Summary
+- Why did you decide yo learn technical skills
+  * Express your values
+  * What attracted you to the industry?
+  * WHy did you pick this specific skill?
+
+- What were you doing before you make this pivot?
+  * What were the early indicators?
+  * Previous experiences that make you a better technologist
+
+
+
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
