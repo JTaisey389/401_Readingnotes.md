@@ -1,4 +1,42 @@
+## 401 Reading Notes
+
+## Readings: AWS: API, Dynamo and Lambada
+
+### Review
+
+1. What are server-less functions?: Server-less functions are single-purpose programmatic function that are hosted on managed infrastructure. [Link](https://www.pubnub.com/blog/what-is-a-serverless-function/
+)
+2. If you were to create a system that emulated Lambda functions, how would you do it?: I am not entirely sure how to emulate it, but if we want local container images to display in multiple places I could set up a system where a file is stored on one server and is duplicated as needed.
+
+3. Describe how a CDN works: A content delivery network, is geographically distributed network of proxy servers and data servers.
+
+### Define
+
+- Server-less Functions: A single purpose programmatic function that are hosted on managed infrastructure.
+- Cloud Storage: Database servers that contain wealths of information that are accessed whenever a request for a webpage is made. 
+- CDN: Content Delivery Network
+
+### Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- What a CDN is
+- How a CDN network interacts with cloud storage
+- What cloud storage can doe for software developers
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- CDN's
+- Integrating a CDN
+- How to navigate AWS
+
+3. What are you most excited about trying to implement or see how it works?
+
+- Integration with AWS
+
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
