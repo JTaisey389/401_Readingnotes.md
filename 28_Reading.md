@@ -1,4 +1,43 @@
+## 401 Reading Notes
+
+## Readings: Component COmposition
+
+### Review
+
+1. Can a parent component access the state of a child component?: The common way would be to use a callback function that the child component to trigger and toss the state values upward. This sounds very familiar to hoisting, but hoisting moves declarations to the top.
+
+2. What can be passed along in a prop variable?: Lots of data can be send into a component when you are calling on that component. Props are used to send data from one React component to another React component. [Link](https://blog.logrocket.com/the-beginners-guide-to-mastering-react-props-3f6f01fd7099/)
+
+3. How can a child component “know” the state of another component?: You could pass a components state to its child components as props. [Link](https://discuss.codecademy.com/t/can-a-component-access-the-state-of-another-component/394157)
+
+### Define
+
+- component props: Components let you split UI into independent reusable pieces, and think about each piece in isolation. [Link](https://reactjs.org/docs/components-and-props.html)
+
+- component state: A components state is when an event takes place for a prop. The state is managed by the component and so props are passed into the component to change the current state. [Link](https://reactjs.org/docs/faq-state.html)
+
+- application state: This refers to the current state of where your application is at.
+
+### Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- A slightly better understanding of state
+- What an application is and how it contains components and can be changed with props
+- React is a dynamic environment
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- Learning more about state
+- Using components consistently
+- Working with state
+
+3. What are you most excited about trying to implement or see how it works?
+
+- I think I would like to see how components play into the state of the framework
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
