@@ -1,3 +1,41 @@
+## 401 Reading Notes
+
+## Readings: Routing
+
+### Review
+
+1. Do child components have direct access to props/state from the parent?: It depends on the architecture you have set up with your React Application, right now we can only pass information to the child and the child has to pass information back to the parent.
+
+2. When a component “wraps” another component, how does the child component’s output get rendered?: The children become nested within the components and so you have to assign a props or a state at the second component level so the child knows that to do. 
+
+3. Can a component, such as <Content />, which is a child also be used as a standalone component elsewhere in the application?: Being a component this relies on state to be changed and so it could be used elsewhere in the application as long as you change its state. 
+
+4. What trick can a parent use to share all props with it’s children: You would use the ... spread operator to pass all props simultaneously. 
+
+### Define: 
+
+- Props.children: This is a situation where some children don't know their children ahead of time. So you would use the props.children to pass element directly into their output.
+
+- Composition: Composition is where a more specific component renders a more generic one and configures it with props.
+
+### Preview:
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- Props
+- State
+- Components
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- The use of props within react
+- How to interact with state
+- What components change state
+
+3. What are you most excited about trying to implement or see how it works?
+
+- Learning more about components and state
+
 ### Table of Contents
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)

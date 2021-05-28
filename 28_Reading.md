@@ -1,6 +1,6 @@
 ## 401 Reading Notes
 
-## Readings: Component COmposition
+## Readings: Component Composition
 
 ### Review
 
