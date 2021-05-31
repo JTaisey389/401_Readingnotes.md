@@ -1,4 +1,37 @@
+## 401 Reading Notes
+
+## Readings: Hash Tables
+
+### Terminology
+
+1. Hash: A hash is a result of some algorithm takin an incoming string and converting into a value that could be used for either security or some other purpose.
+
+2. Bucket: A bucket is what is contained in each index of  the array of the hash table. Each index is a bucket.
+
+3.: Collision: A collision is what happens when more than one key get hashed to the same location of the hash table.
+
+### What are they?
+
+- Hash tables are a data structure that utilize key value pairs. This meas that every **Node** or **Bucket** has both a key, and a value.
+
+- The idea of the hash table is the ability to store the key into this data structure, and quickly retrieve the value. This is done through a *Hash*.
+
+### Structure
+
+- A hash code turns a key into a integer. It is very important that has codes are deterministic: their output is determined only by their input.
+
+### Create some Hash
+ 
+1. Add or multiply all the values together
+
+2. Multiply by a prime number
+
+3. Use modulo to get the remainder of the result, when divided by the total size of the array.
+
+4. Insert the array into the index
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
