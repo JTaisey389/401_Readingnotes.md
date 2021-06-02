@@ -1,4 +1,43 @@
+## 401 Reading Notes
+
+## Readings: Context API
+
+### Review
+
+1. Describe use cases for useMemo() and useReducer(): UseMemo() is a method within React that allows the user to create a memo of a function, the use case could be to store data temporarily. UseReducer() is a method within React that allows the user to return state and dispatch a function. An example of the use case could be an application that needs to alter a components state and then dispatch a specific function once state has been altered.
+
+2. Why do custom hooks need the use prefix?: It sets the React method up in a way to accept the custom hook and will preface the start of Functional React components.
+
+3. What do custom hooks usually do?: Custom hooks are a way to declare your own variables within React and additionally you can make a child to child connection with custom hooks.
+
+4. Using any list of custom hooks, research and name one that you think will be useful in your applications: An example of one that I used yesterday is useState which is just a potato variable that I was using to call state within react.
+
+5. Describe how a hook that fetches API data might work: From the research I did you would install Axios to make calls to the specific API similar to superagent.
+
+### Define
+
+- Reducer: A reducer is a function that determines changes to an applications state. 
+
+### Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- The idea of a hook
+- How hooks allow you to traverse in a linear fashion
+- What axios can do to access API's
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- The use of hooks
+- How to better implement bootstrap
+- How custom hooks can be created
+
+3. What are you most excited about trying to implement or see how it works?
+
+- I look forward to reaching API's with axios
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
