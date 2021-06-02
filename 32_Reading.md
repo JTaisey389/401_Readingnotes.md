@@ -1,4 +1,47 @@
+## 401 Reading Notes
+
+## Readings: Custom Hooks
+
+### Review
+
+1. What does a component’s lifecycle refer to?: A components lifecycle refers to the phase at which your component is at: Mounting, Updating, and Unmounting
+
+2. Why do you sometimes need to “wrap” functions in useCallback when called from within useEffect: In a similar way a helper function helps out other parts of the code, the UseEffect may need the useCallback to trigger specific components.
+
+3. Why are functional components preferred over class components?: It makes it far easier to manage state 
+4. What is wrong with the following code?
+- The div key is missing double quotes
+- Item is never declared
+- Single quote being used on input type is incorrect
+
+
+### Define
+
+- state hook: A specific hook that lets you add React state to function components.
+- effect hook: An effect hook is similar to state but it is a way to effect the current state
+
+- reducer hook: A reducer hook is more suited for managing state objects that contain multiple sub-values. 
+
+### Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- What is a hook
+- What state does
+- How to debug React code
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- How to use hooks
+- How to extrapolate code
+- How best to implement hooks
+
+3. What are you most excited about trying to implement or see how it works?
+
+- Getting stuff to actually work and hopefully understanding the material
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
