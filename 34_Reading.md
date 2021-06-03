@@ -1,4 +1,44 @@
+## 401 Reading Notes
+
+## Readings: <Login /> <Auth />
+
+### Review
+
+1. Why is the Context API useful?: The react context API is a way for React App to effectively produce global variables that can be passed around. [Link](https://www.loginradius.com/blog/async/react-context-api/#:~:text=The%20React%20Context%20API%20is,to%20state%20management%20using%20Redux.)
+
+2. Can a component outside of a provider get its context?: You could do so with the use of class component via the static contextType.
+
+3. What are some common use cases for using the Context API?: Context API allows state to be shared among components.
+
+4. Describe “Context Hell”: A scenario where you have multiple sets of Context which this means an abundance of global variables.
+
+### Define
+
+- global state: In casual domain, a global state is a set of local states which are concurrent with each other. 
+- global context: Items can be scoped globally and accessed via child elements. 
+- provider: The provider component makes the Redux store available to any nested components that need access to the redux store.
+- consumer:
+
+### Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- How to not understand react, this is complicated
+- What an API is
+- Not understanding context hell
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- An explanation of all the things above
+- How to work in react
+- What state is 
+
+3. What are you most excited about trying to implement or see how it works?
+
+- I would like to see how API can be integrated with login or Auth
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
