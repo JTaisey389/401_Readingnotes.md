@@ -1,4 +1,79 @@
+## 401 Reading Notes
+
+## Readings: Graphs
+
+- Graphs area non-linear data structure that can be looked at as a collection of vertices  or nodes which are potentially connected to segments named edges.
+
+## Common Terms
+
+- Vertex: A vertex, also called a "node", is a data object that can have zero or more adjacent vertices.
+- Edge: An edge is a connection between two nodes
+- Neighbor: The neighbors of a node are its adjacent nodes and are connected by an edge
+- Degree: The degree of a vertex is the number of edges connected to a vertex.
+
+## Directed/Undirected
+
+- A **undirected graph** is a a type of graph where each edge is undirected or bi-directional. This means that the undirected graph does not move in a specific direction.
+
+- In this example the graph below, Node *C* is connected to Node *A*, *E* and node *B*. There are no directions given to specific vertices, this type of connection is bi-directional.
+
+[Graphs](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html)
+
+![Example](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/UndirectedGraph.PNG)
+
+**Directed Graphs**
+
+- A directed graph or Digraph is a graph where every edge is directed. Unlike a undirected graph, a Digraph has a direction. Here is an example of a digraph.
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/DirectedGraph.PNG)
+
+**Complete vs Connected vs Disconnected**
+
+- Complete graph is when all the nodes are connected to all other nodes.
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/CompleteGraph.PNG)
+
+- Connected graph is a graph that has all of its vertices/nodes have a least one edge.
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/ConnectedGraph.PNG)
+
+- Disconnected graph is a graph where some vertices may not have edges
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/DisconnectedGraph.PNG)
+
+### Acyclic/Cyclic
+
+- In addition to undirected and directed graphs, there are acyclic and cyclic graphs.
+
+**Acyclic**
+
+- A acyclic graph is a directed graph without cycles, a cycle is when a node can be traversed through and potentially end up back at itself. 
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/threeAcyclic.png)
+
+**Cyclic**
+
+- A cyclic graph is a graph that has cycles. A cycle is a defined path of a positive length that starts and ends at the same vertex.
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/cyclic.PNG)
+
+### Adjacency Matrix/Adjacent List
+
+**Adjacency Matrix**
+
+- Adjacency Matrix is represented through a 2-dimensional array. 
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/AdjMatrix.PNG)
+
+**Adjacency List**
+
+- Adjacency list is the most common way to represent a graph. It is a collection of lists or arrays that list all of the other vertices that are connected. 
+
+[Link](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/AdjList.PNG)
+
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
