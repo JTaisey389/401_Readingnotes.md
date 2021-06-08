@@ -1,4 +1,49 @@
+## 401 Reading Notes
+
+## Readings: Redux - Combined Reducers
+
+### Review
+
+1. Why choose Redux instead of the Context API for global state?: Redux has more libraries within the application bundle. Redux is great for handling larger application where there are high-frequency state updates.
+
+2. What is the purpose of a reducer?: A reducer is a function that determines changes to an application state. It uses the action it receives to determine this change.
+
+3. What does an action contain?: Actions contain payload information from the application store. 
+
+4. Why do we need to copy the state in a reducer? Redux's state is read only, so you cannot mutate it with functions. 
+
+### Define
+
+- immutable state: In object oriented and functional programming, an immutable object is an object whose state cannot be modified after it has been created.
+
+- time travel in redux: Time travel in redux keep track of all slices in your state and move them forward or backward with time travel events. 
+
+- action creator: An action creator is merely a function that returns an action object.
+
+- reducer: A reducer is a function that determines changes to an application state. It uses the action it receives to determine this change.
+
+- dispatch: Dispatch is a function of the Redux store. You call store, dispatch to dispatch an action. 
+
+### Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- What immutable state is
+- What a reducers purpose is
+- How state is passed from element to element
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- How best to create a reducer
+- When dispatching events do you need a listener for the event?
+- If the reducer is changing application state, is this like a container?
+
+3. What are you most excited about trying to implement or see how it works?
+
+- I am looking forward to using redux 
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
@@ -35,12 +80,15 @@
 - [Read Ethics](42_Reading.md)
 
 ## Link to Code 102
+
 - [Code 102 Reading Notes](https://jtaisey389.github.io/reading-notes/)
 
 ## Link to Code 201
+
 - [Reading Notes 201](https://jtaisey389.github.io/reading-notes201.md/)
 
 ## Link to Code 301
+
 - [Reading Notes 301](jtaisey389.github.io/reading-notes301.md/)
 
 [<== Back_to_reading_notes](jtaisey389.github.io/401_readingnotes.md/)
