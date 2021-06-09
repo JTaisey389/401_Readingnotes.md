@@ -1,4 +1,38 @@
+## 401 Reading Notes
+
+## Readings: Redux - Additional Topics
+
+### Review
+
+1. What’s the best practice for “pre-loading” data into the store (on application start) in a Redux application? The asynchronous action within the lifecycle method would need to be fired off. In this situation you would not use the results of the API call that is directly mounted to the component. A thunk middleware would be called in to handle the asynchronous action and from there you call mapStateToProps. [Link](https://www.reddit.com/r/reactjs/comments/fvgxh4/best_practice_for_loading_data_in_redux_store_on/)
+
+2. When using a thunk/async action that dispatches the actual action, which do you export from your reducer? You would dispatch your application with a creator.
+
+### Define
+
+- middleware: Middleware is a software that provides services and capabilities to applications outside of what is offered by the operating system.
+
+- thunk: Thunk is a way you have an action do something that needs code to live inside of a function.
+
+### Preview 
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- Middleware
+- Most of the other items are new to me
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- Pre-loading data within react state
+- How to add thunk to a function
+- How middleware will be implemented into React
+
+3. What are you most excited about trying to implement or see how it works?
+
+- I am looking forward to adding middleware 
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
@@ -35,12 +69,15 @@
 - [Read Ethics](42_Reading.md)
 
 ## Link to Code 102
+
 - [Code 102 Reading Notes](https://jtaisey389.github.io/reading-notes/)
 
 ## Link to Code 201
+
 - [Reading Notes 201](https://jtaisey389.github.io/reading-notes201.md/)
 
 ## Link to Code 301
+
 - [Reading Notes 301](jtaisey389.github.io/reading-notes301.md/)
 
 [<== Back_to_reading_notes](jtaisey389.github.io/401_readingnotes.md/)
