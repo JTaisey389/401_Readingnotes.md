@@ -1,4 +1,40 @@
+## 401 Reading Notes
+
+## Readings: Redux - Asynchronous Actions
+
+### Review
+
+1. How granular should your reducers be? : At the whole reducer functions should only depend on their state and action arguments.
+
+2. Pro or Con – multiple reducers can “fire” when a commonly named action is dispatched: I think this would depend on the scenario, there may be times when you need multiple dispatch events for a function call to work.
+
+3. Name a strategy for preventing the above: I think an approach would be to make sure that you don't have a set of dispatch events relying on a singular component. Each component ideally needs its own reducer.
+
+### Define
+
+- store: A store is an immutable object tree in Redux.
+- combined reducers: The combined reducers function turns an object whose values are different reducing functions into a single reducing function that you can pass.
+
+### Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on?
+
+- What a reducer is
+- How to combine a reducer
+- What amount of detail should your reducer be
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+- More about combined reducers
+- How to keep reducers not overloaded with data
+- What is the best way to manage reducers
+
+3. What are you most excited about trying to implement or see how it works?
+
+- Using reducers
+
 ### Table of Contents
+
 - [Read Express 01](01_Reading.md)
 - [Read Express 02](02_Reading.md)
 - [Read Express REST API](03_Reading.md)
@@ -35,12 +71,15 @@
 - [Read Ethics](42_Reading.md)
 
 ## Link to Code 102
+
 - [Code 102 Reading Notes](https://jtaisey389.github.io/reading-notes/)
 
 ## Link to Code 201
+
 - [Reading Notes 201](https://jtaisey389.github.io/reading-notes201.md/)
 
 ## Link to Code 301
+
 - [Reading Notes 301](jtaisey389.github.io/reading-notes301.md/)
 
 [<== Back_to_reading_notes](jtaisey389.github.io/401_readingnotes.md/)
